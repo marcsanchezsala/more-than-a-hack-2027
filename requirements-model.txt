@@ -1,0 +1,8 @@
+# Pinned environment that reproduces evaluation/results/model_v10.csv and model_v11.csv byte for byte (Python 3.12).
+# huggingface-hub is only needed by bench_external/fetch.py to download the external matches.
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+lightgbm==4.7.0
+scikit-learn==1.9.1
+huggingface-hub==2.4.0
